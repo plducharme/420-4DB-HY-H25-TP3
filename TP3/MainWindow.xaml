@@ -1,0 +1,18 @@
+﻿<Window x:Class="TP3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TP3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1024" Width="1365" KeyDown="Window_KeyDown" Icon="app.ico">
+    <Window.Background>
+        <ImageBrush ImageSource="GameData/background12.jpg"/>
+    </Window.Background>
+    <Grid>
+            <StackPanel x:Name="MapStackPannel" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image x:Name="imgJeu" Stretch="Fill" />
+        </StackPanel>
+
+    </Grid>
+</Window>
